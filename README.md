@@ -1,5 +1,5 @@
 # ResDroid CLI
-`v0.0.1`
+`Latest v0.0.2`
 
 ## Description
 Generate Android drawable and mipmap images for android project from a logo file.

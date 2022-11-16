@@ -1,15 +1,16 @@
 {
   "name": "resdroid-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate Android drawable and mipmap images",
-  "main": "main.js",
+  "main": "index.js",
   "type": "module",
   "bin": {
     "resdroid-cli": "./cli.js"
   },
   "scripts": {
     "build": "npx babel ./src/main.js --out-dir .",
-    "start": "node main.js 'C:\\Users\\info\\Desktop\\rounded_client_white.png'"
+    "start": "node index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,9 +28,6 @@
     "jimp": "^0.16.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.20.2",
-    "@babel/preset-env": "^7.20.2",
-    "babel-plugin-module-resolver": "^4.1.0"
+    "jest": "^29.3.1"
   }
 }
