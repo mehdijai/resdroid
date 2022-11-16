@@ -1,3 +1,3 @@
 export default {
-  cliVersion: "0.0.2",
+  cliVersion: "0.0.3",
 };
